@@ -8,11 +8,11 @@ EXTRA_COMPONENTS = \
 	extras/http-parser \
 	extras/dhcpserver \
 	extras/rboot-ota \
-    $(abspath ../../external_libs/wolfssl) \
-    $(abspath ../../external_libs/cJSON) \
-    $(abspath ../../external_libs/homekit) \
-    $(abspath ../../external_libs/wifi_config) \
-    $(abspath ../../libs/adv_button)
+    $(abspath ../external_libs/wolfssl) \
+    $(abspath ../external_libs/cJSON) \
+    $(abspath ../external_libs/homekit) \
+    $(abspath ../external_libs/wifi_config) \
+    $(abspath ../libs/adv_button)
 
 FLASH_SIZE = 8
 FLASH_MODE = dout
@@ -29,7 +29,7 @@ EXTRA_CFLAGS += -DHOMEKIT_OVERCLOCK_PAIR_SETUP
 ## DEBUG
 #EXTRA_CFLAGS += -DHOMEKIT_DEBUG=1
 
-include $(abspath ../../sdk/esp-open-rtos/common.mk)
+include $(abspath ../sdk/esp-open-rtos/common.mk)
 
 LIBS += m
 
