@@ -80,13 +80,13 @@
 #define S2_TOGGLE2_GPIO                 12
 #define S2_RELAY1_GPIO                  4
 #define S2_RELAY2_GPIO                  5
-// Shelly 2.5
+// Hipposwitch
 #define S25_TOGGLE1_GPIO                13
 #define S25_TOGGLE2_GPIO                5
-#define S25_RELAY1_GPIO                 4
-#define S25_RELAY2_GPIO                 15
-#define S25_BUTTON_GPIO                 2
-#define S25_LED_GPIO                    0
+#define S25_RELAY1_GPIO                 12
+#define S25_RELAY2_GPIO                 14
+#define S25_BUTTON_GPIO                 0
+#define S25_LED_GPIO                    15
 
 // Sonoff
 #define LED_GPIO                        13
