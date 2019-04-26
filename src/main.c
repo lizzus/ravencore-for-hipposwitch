@@ -1,5 +1,5 @@
 /*
- * RavenCore
+ * RavenCore for Hipposwitch
  * 
  * v0.8.5
  * 
